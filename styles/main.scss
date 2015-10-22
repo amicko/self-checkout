@@ -1,0 +1,81 @@
+main {
+	background-color: lightblue;
+	padding: 3em;
+	box-sizing: border-box;
+	border: 2em solid black;
+	overflow: hidden;
+}
+
+#welcome {
+	display: block;
+	text-align: center;
+	font-size: 3em;
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+#begin {
+	display: block;
+	margin: 3em auto 3em auto;
+	height: 10em;
+	width: 15em;
+	border-radius: 25px;
+	background: blue;
+	background: linear-gradient(white, blue, white);
+	font-size: 32px;
+	border: 5px solid black;
+}
+
+#itemForm {
+	float: right;
+	width: 50%;
+	height: 32em;
+
+	label {
+		display: block;
+	}
+	input {
+		display: block;
+		width: 90%;
+		height: 2em;
+	}
+	button {
+		display: block;
+		height: 5em;
+		width: 90%;
+		margin: 1em 0;
+	}
+}
+
+#itemList {
+	float: left;
+	height: 15em;
+	width: 48%;
+	font-size: 2em;
+	border: 2px solid black;
+	overflow: scroll;
+}
+
+#subtotal {
+	float: left;
+	width: 50%;
+	font-size: 2em;
+}
+
+#finish {
+	display: block;
+	clear: both;
+	width: 90%;
+	margin: 0 auto;
+	font-size: 3em;
+	height: 2em;
+}
+
+#total {
+	display: block;
+	clear: both;
+	width: 90%;
+	text-align: center;
+	font-size: 3em;
+	height: 2em;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Self Checkout</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.sass.css">
+</head>
+<body>
+	<main>
+		<div id="welcome">Welcome!</div>
+		<button id="begin">Begin Purchase</button>
+		<form id="itemForm">
+			<label>Item Name</label>
+			<input type="text" id="name">
+			<label>Price</label>
+			<input type="integer" id="price">
+			<label>Quantity</label>
+			<input type="number" id="quantity">
+			<button>Add Item</button>
+		</form>
+		<div id="itemList"></div>
+		<div id="subtotal"></div>
+		<div id="total"></div>
+		<button id="finish">Complete Transaction</button>
+	</main>
+<script type="text/javascript" src="scripts/bundle.js"></script>
+</body>
+</html>
